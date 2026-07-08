@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waky — Sales &amp; business automation</title>
+<meta name="description" content="Waky builds the automations that capture, follow up with, and book your leads automatically — so your sales process runs even when your team is offline.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo" aria-label="Waky home">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none">
+        <rect x="1" y="1" width="38" height="38" rx="10" fill="#14181F"/>
+        <path d="M9 27C13 28 18.5 27.5 23.5 20.5" stroke="#FFC53D" stroke-width="2.3" stroke-linecap="round" opacity="0.5"/>
+        <circle cx="26.5" cy="15.5" r="4.5" fill="#FFC53D"/>
+      </svg>
+      <span class="logo-word">waky</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="service.html" class="nav-link">Services</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html#book" class="btn btn-primary btn-sm">Book a free consultation</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-inner">
+      <span class="tag">Sales + Ops Automation</span>
+      <h1 class="hero-title">Your sales team, running while you sleep.</h1>
+      <p class="hero-sub">Waky connects your forms, inbox, CRM, and calendar so every lead gets a reply, a follow-up, and a booked call — without anyone touching a spreadsheet.</p>
+      <div class="hero-ctas">
+        <a href="contact.html#book" class="btn btn-primary">Book a free consultation</a>
+        <a href="#automate" class="btn btn-ghost">See what we automate ↓</a>
+      </div>
+    </div>
+
+    <div class="pipeline" id="heroPipeline">
+      <div class="pipeline-track">
+        <span class="pipeline-node"></span>
+        <span class="pipeline-node"></span>
+        <span class="pipeline-node"></span>
+        <span class="pipeline-node"></span>
+        <span class="pipeline-dot"></span>
+      </div>
+      <div class="pipeline-labels">
+        <span>Lead in</span>
+        <span>Qualified</span>
+        <span>Followed up</span>
+        <span>Call booked</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE AUTOMATE -->
+  <section class="section container" id="automate">
+    <div class="section-head">
+      <span class="tag">Where the time goes</span>
+      <h2 class="section-title">What we automate</h2>
+      <p class="section-sub">The parts of your sales process that eat a day and move a deal by inches.</p>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="tag">Capture</span>
+        <h3>Lead capture &amp; routing</h3>
+        <p>New leads from your site, ads, or DMs land in one place and go straight to the right person — no one refreshes an inbox to find them.</p>
+      </div>
+      <div class="feature-card">
+        <span class="tag">Nurture</span>
+        <h3>Follow-up sequences</h3>
+        <p>Every lead gets a timely message by email, text, or WhatsApp — including the ones you'd normally forget by Friday.</p>
+      </div>
+      <div class="feature-card">
+        <span class="tag">Sync</span>
+        <h3>CRM &amp; pipeline sync</h3>
+        <p>Deals update themselves across your CRM, sheets, and calendar, so the pipeline you look at is never a version behind.</p>
+      </div>
+      <div class="feature-card">
+        <span class="tag">Report</span>
+        <h3>Reporting &amp; alerts</h3>
+        <p>A daily digest of what moved, what stalled, and what needs you today — and a ping the moment a hot lead goes quiet.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section container">
+    <div class="section-head">
+      <span class="tag">The process</span>
+      <h2 class="section-title">How it works</h2>
+      <p class="section-sub">Four steps from first call to automations running quietly in the background.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="tag">Step 01</span>
+        <h3>Book a free call</h3>
+        <p>Tell us where leads fall through the cracks today.</p>
+      </div>
+      <div class="step">
+        <span class="tag">Step 02</span>
+        <h3>We map your workflow</h3>
+        <p>We trace exactly how a lead moves today, tool by tool.</p>
+      </div>
+      <div class="step">
+        <span class="tag">Step 03</span>
+        <h3>We build the automation</h3>
+        <p>Custom flows connecting the tools your team already uses.</p>
+      </div>
+      <div class="step">
+        <span class="tag">Step 04</span>
+        <h3>You watch it run</h3>
+        <p>Leads get handled automatically. You get the summary.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="container">
+    <div class="cta-band">
+      <h2>Stop losing leads to slow follow-up.</h2>
+      <div class="cta-actions">
+        <a href="contact.html#book" class="btn btn-primary">Book a free consultation</a>
+        <a href="service.html" class="btn btn-secondary on-dark">See services</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo" aria-label="Waky home">
+        <svg class="logo-mark" viewBox="0 0 40 40" fill="none">
+          <rect x="1" y="1" width="38" height="38" rx="10" fill="#14181F"/>
+          <path d="M9 27C13 28 18.5 27.5 23.5 20.5" stroke="#FFC53D" stroke-width="2.3" stroke-linecap="round" opacity="0.5"/>
+          <circle cx="26.5" cy="15.5" r="4.5" fill="#FFC53D"/>
+        </svg>
+        <span class="logo-word">waky</span>
+      </a>
+      <p>Automation for teams who'd rather sell than do data entry.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <span class="tag">Site</span>
+        <a href="index.html">Home</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <span class="tag">Contact</span>
+        <a href="mailto:hello@waky.co">hello@waky.co</a>
+        <a href="https://wa.me/10000000000" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Waky. All rights reserved.</span>
+    <span>Built to run quietly in the background.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

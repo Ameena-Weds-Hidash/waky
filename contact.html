@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Waky</title>
+<meta name="description" content="Book a free consultation with Waky over WhatsApp or by filling in a short form — we reply within one business day.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo" aria-label="Waky home">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none">
+        <rect x="1" y="1" width="38" height="38" rx="10" fill="#14181F"/>
+        <path d="M9 27C13 28 18.5 27.5 23.5 20.5" stroke="#FFC53D" stroke-width="2.3" stroke-linecap="round" opacity="0.5"/>
+        <circle cx="26.5" cy="15.5" r="4.5" fill="#FFC53D"/>
+      </svg>
+      <span class="logo-word">waky</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="service.html" class="nav-link">Services</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#book" class="btn btn-primary btn-sm">Book a free consultation</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-header container">
+    <span class="tag">Contact</span>
+    <h1 class="hero-title">Let's look at your pipeline.</h1>
+    <p class="hero-sub">Message us on WhatsApp for the fastest reply, or fill in the form below and we'll open WhatsApp for you with everything pre-filled.</p>
+  </section>
+
+  <section class="section container" id="book">
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <span class="tag">Direct</span>
+        <h3>Message us on WhatsApp</h3>
+        <p>The fastest way to reach us. Tap below to start a chat — no form required.</p>
+        <a href="https://wa.me/10000000000?text=Hi%20Waky%2C%20I%27d%20like%20to%20book%20a%20free%20consultation." target="_blank" rel="noopener" class="btn btn-primary btn-block">Chat on WhatsApp</a>
+
+        <div style="margin-top:28px">
+          <div class="contact-detail">
+            <span>Email</span>
+            <a href="mailto:hello@waky.co">hello@waky.co</a>
+          </div>
+          <div class="contact-detail">
+            <span>Response time</span>
+            <span>Within 1 business day</span>
+          </div>
+          <div class="contact-detail">
+            <span>Hours</span>
+            <span>Mon–Fri, 9am–6pm</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">Work email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone (optional)</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="interest">What do you want to automate?</label>
+            <select id="interest" name="interest">
+              <option>Lead capture &amp; routing</option>
+              <option>Follow-up sequences</option>
+              <option>CRM &amp; data sync</option>
+              <option>Meeting &amp; calendar automation</option>
+              <option>Reporting &amp; alerts</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="message">A bit more detail</label>
+            <textarea id="message" name="message" placeholder="What does your sales process look like today?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send via WhatsApp</button>
+          <p class="form-note" style="margin-top:14px">This opens WhatsApp with your details filled in — just hit send there.</p>
+          <p id="formStatus" role="status"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo" aria-label="Waky home">
+        <svg class="logo-mark" viewBox="0 0 40 40" fill="none">
+          <rect x="1" y="1" width="38" height="38" rx="10" fill="#14181F"/>
+          <path d="M9 27C13 28 18.5 27.5 23.5 20.5" stroke="#FFC53D" stroke-width="2.3" stroke-linecap="round" opacity="0.5"/>
+          <circle cx="26.5" cy="15.5" r="4.5" fill="#FFC53D"/>
+        </svg>
+        <span class="logo-word">waky</span>
+      </a>
+      <p>Automation for teams who'd rather sell than do data entry.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <span class="tag">Site</span>
+        <a href="index.html">Home</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <span class="tag">Contact</span>
+        <a href="mailto:hello@waky.co">hello@waky.co</a>
+        <a href="https://wa.me/10000000000" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Waky. All rights reserved.</span>
+    <span>Built to run quietly in the background.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
